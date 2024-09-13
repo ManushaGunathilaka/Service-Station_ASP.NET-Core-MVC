@@ -1,0 +1,19 @@
+﻿@model ServiceStation.Web.Models.VehicleService;
+<h1>@ViewData["PageTitle"]</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Cost</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>@Model.Title</th>
+            <th>@Model.Description</th>
+            <th>@Model.Cost</th>
+        </tr>
+    </tbody>
+</table>
